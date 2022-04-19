@@ -97,7 +97,7 @@ namespace GUI_Razzaq
                     else
                     {
                         MessageBox.Show("Tarik tunai ke rekening " + rek + " dengan nonimal Rp. " + jumlah + " berhasil");
-                        MessageBox.Show("Sisa saldo anda " + (saldo - jumlah));
+                        MessageBox.Show("Sisa saldo anda: " + (saldo - jumlah));
                         Config.UpdateSaldo(saldo, jumlah);
                     }
                     
